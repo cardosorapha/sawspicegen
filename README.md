@@ -30,7 +30,7 @@ In the following section, I give a general description of the model created by t
 ## Description of the model
 
 <p align="center">
-  <img src="images/fullcircuit.png" width="600" />
+  <img src="images/fullcircuit.png" width="900" />
 </p>
 
 The final model for the device is contained in the DLINE block, and it can be seen in the figure. Inside of it, there are two IDTs, which themselves are composed of smaller FING models, connected in series, determined by the amount of finger pairs chosen by the user, during the script execution. There are two alternatives for the FING model, the first is the distributed component, which has the best behavior in general, with good frequency and time domain responses and it is the recommended for most uses.
