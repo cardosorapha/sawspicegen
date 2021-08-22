@@ -42,7 +42,7 @@ The SENSE block, between IDTs, allows for good customization of the response by 
 ## Developed at
 
 <p align="center">
-  <img src="images/ufs_horizontal_positiva.png" width="300" />
+  <img src="images/ufs_horizontal_positiva.png" width="600" />
 </p>
 
 by Raphael Cardoso (cardosodeoliveir@gmail.com)
