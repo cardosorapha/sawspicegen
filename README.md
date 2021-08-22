@@ -40,7 +40,7 @@ The final model for the device is contained in the DLINE block, and it can be se
 However, you can also use the lumped component model, which approximates the A and B impedances (dependent on the tangent and cosecant of the frequency) with LC pairs through the Foster or Mittag-Leffler theorems. Since this is an approximation of periodic functions, it is necessary to choose how many periods will be approximated (n=1 to 5) for Foster or any number n>1 for Mittag-Leffler. The lumped component approach results in an unstable model in the time domain simulations, but can still be used in the frequency domain. The value of n is responsible for how many periods appear in the frequency response, as seen below.
 
 <p align="center">
-  <img src="images/broad.png" width="600" />
+  <img src="images/broad.png" width="300" />
 </p>
 
 The SENSE block, between IDTs, allows for good customization of the response by the user. In that hierarchical block, the values of Ap and tp are defined as parameters, that are controlled by the tb.cir file. By changing these values, the user can freely attenuate or delay the response of the device, which is interesting for simulating perturbations in a sensor. The limitation of this circuit is that Ap can only model **attenuations**, so if you want to increase the gain level, you can change the electroacoustic coupling parameter (K^2) during the execution of the script. 
