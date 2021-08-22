@@ -53,6 +53,13 @@ The capacitor Cf can also be modified through a parameter in tb.cir. This capaci
   <img src="images/capdiff.png" width="600" />
 </p>
 
+If you want more information, you can look at our published papers.
+
+## Published papers
+
+* Evaluation of an Equivalent Circuit Model for Simulation of Surface Acoustic Wave Sensors (INSCIT 2021)
+* ...
+
 ## Developed at
 
 <p align="center">
