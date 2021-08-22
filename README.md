@@ -1,6 +1,6 @@
 # Surface Acoustic Wave Device SPICE Generator
 
-Script for generating models for surface acoustic wave devices in SPICE. The output is divided in two files, one for the hierarchical blocks (default out.cir) and other for a testbench with a sample circuit and simulation directives (tb.cir). 
+Script for generating models for surface acoustic wave devices in SPICE. The output is divided in two files, one for the hierarchical blocks (out.cir) and other for a testbench with a sample circuit and simulation directives (tb.cir). 
 
 ## Dependencies
 
