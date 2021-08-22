@@ -46,7 +46,7 @@ The capacitor Cf can also be modified through a parameter in tb.cir. This capaci
 * Imperfections in the frequency domain response, as seen in the figures below.
 
 <p align="center">
-  <img src="images/capdiff.png" width="300" />
+  <img src="images/capdiff.png" width="600" />
 </p>
 
 ## Developed at
