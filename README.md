@@ -29,6 +29,8 @@ In the following section, I give a general description of the model created by t
 
 ## Description of the model
 
+The sample circuit, present in the tb.cir file, is shown in the figure.
+
 <p align="center">
   <img src="images/fullcircuit.png" width="900" />
 </p>
