@@ -37,7 +37,11 @@ The sample circuit, present in the tb.cir file, is shown in the figure.
 
 The final model for the device is contained in the DLINE block, and it can be seen in the figure. Inside of it, there are two IDTs, which themselves are composed of smaller FING models, connected in series, determined by the amount of finger pairs chosen by the user, during the script execution. There are two alternatives for the FING model, the first is the distributed component, which has the best behavior in general, with good frequency and time domain responses and it is the recommended for most uses.
 
-However, you can also use the lumped component model, which approximates the A and B impedances (dependent on the tangent and cosecant of the frequency) with LC pairs through the Foster or Mittag-Leffler theorems. Since this is an approximation of periodic functions, it is necessary to choose how many periods will be approximated (1-5) for Foster or any number >1 for Mittag-Leffler. The lumped component approach results in an unstable model in the time domain simulations, but can still be used in the frequency domain.
+However, you can also use the lumped component model, which approximates the A and B impedances (dependent on the tangent and cosecant of the frequency) with LC pairs through the Foster or Mittag-Leffler theorems. Since this is an approximation of periodic functions, it is necessary to choose how many periods will be approximated (n=1 to 5) for Foster or any number n>1 for Mittag-Leffler. The lumped component approach results in an unstable model in the time domain simulations, but can still be used in the frequency domain. The value of n is responsible for how many periods appear in the frequency response, as seen below.
+
+<p align="center">
+  <img src="images/broad.png" width="600" />
+</p>
 
 The SENSE block, between IDTs, allows for good customization of the response by the user. In that hierarchical block, the values of Ap and tp are defined as parameters, that are controlled by the tb.cir file. By changing these values, the user can freely attenuate or delay the response of the device, which is interesting for simulating perturbations in a sensor. The limitation of this circuit is that Ap can only model **attenuations**, so if you want to increase the gain level, you can change the electroacoustic coupling parameter (K^2) during the execution of the script. 
 
