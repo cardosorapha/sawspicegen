@@ -53,6 +53,8 @@ The capacitor Cf can also be modified through a parameter in tb.cir. This capaci
   <img src="images/capdiff.png" width="600" />
 </p>
 
+PS: these graphs are in different scales.
+
 If you want more information, you can look at our published papers.
 
 ## Published papers
