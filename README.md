@@ -25,7 +25,7 @@ Then, the program will ask you to input a few parameters necessary for evaluatio
 
 When generating the model, the program produces many different hierarchical blocks, according to what is better described in my Master's degree dissertation "MODELAGEM DE DISPOSITIVOS DE ONDAS ACÚSTICAS DE SUPERFÍCIE COM FOCO EM AMBIENTES DE SIMULAÇÃO" or, in english, "SIMULATION-ORIENTED MODELLING OF SURFACE ACOUSTIC WAVE DEVICES". Depending on when you read this documentation, it may be easier or harder for this manuscript to be found online, so you can always contact me directly via email.
 
-When the program is done, you can test the model in any SPICE simulator (or compatible). I would recommend LTSPICE because it is free. If you use ADS or something different, you can either look how to import SPICE models or you could read the text files (out.cir and tb.cir) and implement the circuit in your graphic environment.
+When the program is done, you can test the model in any SPICE simulator (or compatible). I would recommend LTSPICE because it is free. If you use ADS or something different, you can either look how to import SPICE models or you could read the text files (out.cir and tb.cir) and implement the circuit in your graphic environment. I have included a graphical LTSPICE example, where the model is implemented as text but the rest of the circuit is a schematic as you are probably used, so check out tb.asc if you don't know where to start from.
 
 In the following section, I give a general description of the model created by this script.
 
