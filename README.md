@@ -61,7 +61,7 @@ If you want more information, you can look at our published papers.
 
 ## Published papers
 
-* Evaluation of an Equivalent Circuit Model for Simulation of Surface Acoustic Wave Sensors (INSCIT 2021)
+* Evaluation of an Equivalent Circuit Model for Simulation of Surface Acoustic Wave Sensors (INSCIT 2021) - https://ieeexplore.ieee.org/document/9557258
 * ...
 
 ## Developed at
