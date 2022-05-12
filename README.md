@@ -2,6 +2,8 @@
 
 Script for generating models for surface acoustic wave devices in SPICE. The output is divided in two files, one for the hierarchical blocks (out.cir) and other for a testbench with a sample circuit and simulation directives (tb.cir). 
 
+For graphical usability of the model, I included a sample LTSPICE file (tb.asc) that imports the circuit generated from the script and performs common analysis.
+
 ## Dependencies
 
 * Python3;
