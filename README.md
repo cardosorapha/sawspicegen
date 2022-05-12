@@ -62,7 +62,7 @@ If you want more information, you can look at our published papers.
 ## Published papers
 
 * Evaluation of an Equivalent Circuit Model for Simulation of Surface Acoustic Wave Sensors (INSCIT 2021) - https://ieeexplore.ieee.org/document/9557258
-* ...
+* Equivalent Circuit Models for SAW Delay Line Sensors (IEEE Sensors 2022) - https://ieeexplore.ieee.org/abstract/document/9768799
 
 ## Developed at
 
